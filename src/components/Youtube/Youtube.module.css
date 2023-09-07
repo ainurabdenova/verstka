@@ -1,0 +1,50 @@
+.page__wrapper {
+	width: 100%;
+	height: 100%;
+}
+.header__container {
+	width: 100%;
+	height: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header {
+	width: 77rem;
+	height: 4rem;
+	display: flex;
+	justify-content: space-between;
+}
+.test__border {
+	border: 1px solid red;
+}
+
+.left__content {
+	display: flex;
+	align-items: center;
+	padding: 0.5rem;
+	gap: 0.8rem;
+}
+.logo > img {
+	width: 4rem;
+	height: 2rem;
+	object-fit: contain;
+}
+.navbar {
+	display: flex;
+	align-items: center;
+}
+.main__content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.search__content__container > div {
+	display: flex;
+	align-items: center;
+}
+
+.search__content__container {
+	display: flex;
+	align-items: center;
+}

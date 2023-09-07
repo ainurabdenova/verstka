@@ -1,0 +1,146 @@
+.one__wrapper {
+	width: 100%;
+	height: 100%;
+	background-color: #dcdcf4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.one__warpper__container {
+	width: 15rem;
+	height: 24rem;
+	padding: 1.5rem;
+	-webkit-box-shadow: 1px 1px 20px 0px rgba(34, 60, 80, 0.13);
+	-moz-box-shadow: 1px 1px 20px 0px rgba(34, 60, 80, 0.13);
+	box-shadow: 1px 1px 20px 0px rgba(34, 60, 80, 0.13);
+	border-radius: 1rem;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+}
+
+.header {
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 0.6rem;
+	padding: 0.3rem;
+}
+
+.button__wrapper {
+	display: flex;
+}
+
+.button__ui {
+	width: 3.2rem;
+	height: 1.2rem;
+	border: 0.05rem solid rgb(215, 209, 209);
+	padding: 0.6rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.7rem;
+}
+
+.button__active{
+    color: #fff;
+	background-color: #385df0;
+}
+
+.button__first {
+	border-top-left-radius: 0.2rem;
+	border-bottom-left-radius: 0.2rem;
+}
+
+.button__fourth {
+	border-top-right-radius: 0.2rem;
+	border-bottom-right-radius: 0.2rem;
+}
+
+.search__wrapper {
+	width: auto;
+	height: 1.8rem;
+	padding: 0.3rem;
+	border: 0.05rem solid rgb(215, 209, 209);
+	background-color: #f0f0fb;
+	border-radius: 0.2rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.search__icon {
+	width: auto;
+	height: auto;
+	padding: 0.1rem;
+	display: flex;
+}
+
+.search__input {
+	width: 8rem;
+	height: 1rem;
+	font-size: 0.7rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.main__wrapper {
+	width: 100%;
+	height: 100%;
+	padding: 0.5rem;
+	border-radius: 0.3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main__wrapper:hover {
+	background-color: #f0f0fb;
+}
+.main__wrapper__container {
+	width: 11.2rem;
+	height: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.left__content {
+	width: auto;
+	height: auto;
+	display: flex;
+	gap: 0.3rem;
+}
+
+.left__content__logo {
+	width: 1.5rem;
+	height: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.left__content__text {
+	font-size: 0.7rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main__maping {
+	display: flex;
+	flex-direction: column;
+}
+
+.icon__red{
+    color: red;
+}
+
+
+.right__content__icon {
+	cursor: pointer;
+}

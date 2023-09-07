@@ -1,0 +1,159 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	font-synthesis: none;
+	font-size: 16px;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+#root {
+	width: 100vw;
+	height: 100vh;
+}
+
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+
+	/* Shopping cart */
+	/* font-weight */
+	--main-fw: 700;
+	--secondary-fw: 500;
+	--th-fw: 700;
+	/* font-size */
+	--main-fz: 0.9rem;
+	--secondary-fz: 0.5rem;
+	--th-fz: 0.6rem;
+	/* color */
+	--green: #85bc46;
+	--blue: #3e6bd7;
+	--light-blue: #cbeaeb;
+	--white: #fff;
+	--gray: #a5a7b1;
+
+	/* Log in */
+	/* box-shadow */
+	--main-box-shadow: 0px 0px 50px -6px rgba(34, 60, 80, 0.17);
+	/* color */
+	--main-bc: #f8f8fb;
+	--main-color: #191a48;
+	--secondary-color: #bfbccb;
+	--third-color: #9695ab;
+	--main-log-fs: 1.2rem;
+	--secondary-log-fs: 0.7rem;
+	--main-log-fw: 700;
+	--secondary-log-fw: 600;
+}
+
+/* Links */
+
+/* a,
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+} */
+
+/* Common */
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+ul,
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img,
+svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+	font-style: normal;
+}
+
+/* Form */
+
+input,
+textarea,
+select {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button,
+input[type="submit"] {
+	display: inline-block;
+	box-shadow: none;
+	background-color: transparent;
+	background: none;
+	cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+	outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
